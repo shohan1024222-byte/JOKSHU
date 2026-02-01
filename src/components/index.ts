@@ -1,0 +1,1 @@
+export { IDCardScanner } from './IDCardScanner';

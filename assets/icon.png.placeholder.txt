@@ -1,0 +1,2 @@
+// Placeholder for icon asset
+// Replace this file with an actual 1024x1024 PNG icon for your app
