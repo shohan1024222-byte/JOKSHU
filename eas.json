@@ -1,0 +1,21 @@
+{
+  "cli": {
+    "version": ">= 16.0.0",
+    "promptToConfigurePushNotifications": false,
+    "appVersionSource": "local"
+  },
+  "build": {
+    "production": {
+      "distribution": "store",
+      "android": {
+        "gradleCommand": ":app:bundleRelease"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    }
+  }
+}
